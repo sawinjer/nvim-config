@@ -16,6 +16,7 @@ require("sawinjer.plugins.lsp.mason")
 require("sawinjer.plugins.lsp.lspsaga")
 require("sawinjer.plugins.lsp.lspconfig")
 require("sawinjer.plugins.lsp.file-operations")
+require("sawinjer.plugins.lsp.conform")
 -- git
 require("sawinjer.plugins.lazygit")
 require("sawinjer.plugins.gitsights")

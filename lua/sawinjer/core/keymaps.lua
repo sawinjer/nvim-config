@@ -46,3 +46,6 @@ keymap.set("n", "<leader>rs", ":LspRestart<CR>")
 
 --lazygit
 keymap.set("n", "<leader>lg", ":LazyGit<CR>")
+
+--confrom
+keymap.set("n", "<leader>p", "BufWritePre<CR>")

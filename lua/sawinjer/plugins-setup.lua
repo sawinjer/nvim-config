@@ -76,6 +76,7 @@ return packer.startup(function(use)
   use("mg979/vim-visual-multi")
   use "kdheepak/lazygit.nvim" -- git ui
   use "lewis6991/gitsigns.nvim"
+  use "stevearc/conform.nvim"
 
   if packer_bootstrap then
     require("packer").sync()
