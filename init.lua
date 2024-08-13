@@ -19,4 +19,4 @@ require("sawinjer.plugins.lsp.file-operations")
 require("sawinjer.plugins.lsp.conform")
 -- git
 require("sawinjer.plugins.lazygit")
-require("sawinjer.plugins.gitsights")
+require("sawinjer.plugins.gitsigns")
