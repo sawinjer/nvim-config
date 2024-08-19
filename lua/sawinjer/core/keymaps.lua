@@ -48,4 +48,4 @@ keymap.set("n", "<leader>rs", ":LspRestart<CR>")
 keymap.set("n", "<leader>lg", ":LazyGit<CR>")
 
 --confrom
-keymap.set("n", "<leader>p", "BufWritePre<CR>")
+keymap.set("n", "<leader>p", ":ConformWrite<CR>")

@@ -53,7 +53,10 @@ return packer.startup(function(use)
 	use("hrsh7th/cmp-path")
 
 	-- snippets
-	use("L3MON4D3/LuaSnip") -- snippet engine
+	use({
+		"L3MON4D3/LuaSnip",
+		run = "make install_jsregexp",
+	}) -- snippet engine
 	use("saadparwaiz1/cmp_luasnip") -- for autocompletion
 	use("rafamadriz/friendly-snippets") -- useful snippets
 
@@ -72,11 +75,18 @@ return packer.startup(function(use)
 	}) -- enhanced lsp uis
 	use("antosha417/nvim-lsp-file-operations")
 	use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
+
 	use("m4xshen/autoclose.nvim") -- autoclose brackets
+	use("windwp/nvim-ts-autotag")
 	use("mg979/vim-visual-multi")
 	use("kdheepak/lazygit.nvim") -- git ui
 	use("lewis6991/gitsigns.nvim")
 	use("stevearc/conform.nvim")
+
+	use({
+		"goolord/alpha-nvim",
+		requires = { "echasnovski/mini.icons" },
+	})
 
 	if packer_bootstrap then
 		require("packer").sync()

@@ -27,3 +27,7 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 		conform.format({ bufnr = args.buf })
 	end,
 })
+
+vim.api.nvim_create_user_command("ConformWrite", function(args)
+	conform.format({ bufnr = args.buf })
+end, {})
