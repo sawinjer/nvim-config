@@ -12,7 +12,6 @@ require("sawinjer.plugins.telescope")
 require("sawinjer.plugins.nvim-cmp")
 require("sawinjer.plugins.autoclose")
 require("sawinjer.plugins.autotag")
-require("sawinjer.plugins.alpha")
 -- lsp plugins
 require("sawinjer.plugins.lsp.mason")
 require("sawinjer.plugins.lsp.lspsaga")
@@ -23,3 +22,4 @@ require("sawinjer.plugins.lsp.tree-sitter")
 -- git
 require("sawinjer.plugins.lazygit")
 require("sawinjer.plugins.gitsigns")
+require("sawinjer.plugins.gitblame")

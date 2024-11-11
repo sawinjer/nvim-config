@@ -21,7 +21,7 @@ lsp_default_servers = {
 	"tailwindcss",
 	"clangd",
 	"gopls",
-	"rome", -- json
+	-- "rome", -- json
 	"marksman", -- markdown
 	"psalm", -- php
 	"ruff", -- python
@@ -31,10 +31,12 @@ lsp_default_servers = {
 	"taplo", -- toml
 	"emmet_ls",
 	"volar", -- Vue
+	"biome",
+	"somesass_ls",
 }
 
 lsp_all_serveres = TableConcat(lsp_default_servers, {
-	"tsserver",
+	"ts_ls",
 	"lua_ls",
 	"eslint",
 })

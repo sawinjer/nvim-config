@@ -33,9 +33,9 @@ nvimtree.setup({
 			},
 		},
 	},
-	-- 	git = {
-	-- 		ignore = false,
-	-- 	},
+	filters = {
+		dotfiles = false,
+	},
 })
 
 -- change color for arrows in tree to light blue

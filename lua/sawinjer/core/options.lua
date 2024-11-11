@@ -1,5 +1,7 @@
 local opt = vim.opt
 
+opt.shell = "zsh"
+
 -- line numbers
 opt.relativenumber = true
 opt.number = true
@@ -13,7 +15,7 @@ opt.shiftwidth = tab_size
 opt.expandtab = true
 opt.autoindent = true
 
--- line 
+-- line
 opt.wrap = false
 
 --search settings

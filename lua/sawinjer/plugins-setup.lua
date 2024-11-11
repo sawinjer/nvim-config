@@ -75,12 +75,14 @@ return packer.startup(function(use)
 	}) -- enhanced lsp uis
 	use("antosha417/nvim-lsp-file-operations")
 	use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
+	use("praem90/nvim-phpcsf")
 
 	use("m4xshen/autoclose.nvim") -- autoclose brackets
 	use("windwp/nvim-ts-autotag")
 	use("mg979/vim-visual-multi")
 	use("kdheepak/lazygit.nvim") -- git ui
 	use("lewis6991/gitsigns.nvim")
+	use("f-person/git-blame.nvim")
 	use("stevearc/conform.nvim")
 
 	use({
